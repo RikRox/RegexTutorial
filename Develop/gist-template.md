@@ -11,7 +11,7 @@ The regular expression below is validating email addresses.
 It is broken down below:
 
 - ^ asserts position at start of a line
-- + matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
+- '+' matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
 - a-z matches a single character in the range between a and z (case sensitive)
 - A-Z matches a single character in the range between A and Z (case sensitive)
 - 0-9 matches a single character in the range between 0 and 9 (case sensitive)
