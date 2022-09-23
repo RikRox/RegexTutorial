@@ -16,8 +16,8 @@ It is broken down below:
 - A-Z matches a single character in the range between A and Z (case sensitive)
 - 0-9 matches a single character in the range between 0 and 9 (case sensitive)
 - _ matches the character _ literally (case sensitive)
-- \- matches the character - literally (case sensitive)
-- \. matches the character . literally (case sensitive)
+- '\-' matches the character - literally (case sensitive)
+- '\.' matches the character . literally (case sensitive)
 - @ matches the character @ literally (case sensitive)
 
 There are also two capturing groups. 
