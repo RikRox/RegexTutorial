@@ -10,15 +10,15 @@ The regular expression below is validating email addresses.
 /^[a-zA-Z0-9_\-\.]+@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/
 It is broken down below:
 
-^ asserts position at start of a line
-+ matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
-a-z matches a single character in the range between a and z (case sensitive)
-A-Z matches a single character in the range between A and Z (case sensitive)
-0-9 matches a single character in the range between 0 and 9 (case sensitive)
-_ matches the character _ literally (case sensitive)
-\- matches the character - literally (case sensitive)
-\. matches the character . literally (case sensitive)
-@ matches the character @ literally (case sensitive)
+- ^ asserts position at start of a line
+- + matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
+- a-z matches a single character in the range between a and z (case sensitive)
+- A-Z matches a single character in the range between A and Z (case sensitive)
+- 0-9 matches a single character in the range between 0 and 9 (case sensitive)
+- _ matches the character _ literally (case sensitive)
+- \- matches the character - literally (case sensitive)
+- \. matches the character . literally (case sensitive)
+- @ matches the character @ literally (case sensitive)
 
 There are also two capturing groups. 
 
